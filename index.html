@@ -1,1 +1,46 @@
-<!-- Lab activity 3 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Activity3</title>
+
+    <style>
+        .mouseEvents{
+            height: 30px; 
+            width:120px; 
+            background-color:cornflowerblue; 
+            padding:40px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Lab activity 3 -->
+
+    <!-- Example 1 -->
+    <!-- onMouseOver and onMouseOut Events -->
+    <div class="mouseEvents" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+        Mouse over me
+    </div>
+
+    <!-- Example 2 -->
+    <!-- onClick Event -->
+    <div>
+        <p>Click on image to see another.</p>
+        <img src="images/tiger.jpg" id="image" onclick="onImageClick()"/>
+    </div>
+
+    <!-- Example 3 -->
+    <!-- Key Events -->
+    <div>
+        <p>Press and hold down a key inside the text field to set a red background color. Release the key to set a green background color.</p>
+
+        <input type="text" id="demo" onkeydown="keydownFunction()" onkeyup="keyupFunction()">
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
