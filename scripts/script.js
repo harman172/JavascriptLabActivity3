@@ -4,7 +4,7 @@ function mouseOver(obj) {
 }
 
 function mouseOut(obj) {
-    obj.innerHTML = "Mouse Over Me"
+    obj.innerHTML = "Place mouse Over Me"
 }
 
 // Example 2
@@ -14,7 +14,7 @@ function onImageClick(){
 
 // Example 3
 function keydownFunction() {
-    document.getElementById("demo").style.backgroundColor = "red";
+    document.getElementById("demo").style.backgroundColor = "#6df1f0";
 }
 
 function keyupFunction() {
